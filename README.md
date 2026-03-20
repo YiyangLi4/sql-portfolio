@@ -1,31 +1,48 @@
-# SQL Data Analytics Portfolio
+# Travel Booking Data Analysis (SQL Portfolio)
 
-This repository showcases end-to-end SQL projects simulating real-world business scenarios, including customer segmentation, KPI reporting, and cohort analysis.
+This project simulates a real-world data analysis workflow based on a travel agency business context.
 
 ## Business Context
 
-The dataset represents transaction data from an e-commerce platform. The goal is to analyze customer behavior, monitor business performance, and generate insights to support decision-making.
+The dataset represents booking-level data from a travel agency, including customer bookings, acquisition channels, destinations, and product types. The goal is to analyze business performance and generate insights to support decision-making.
 
-## Project Structure
+## Dataset
 
-- `data/`: sample dataset
-- `sql/`: analysis queries
-- `docs/`: business explanation
+The dataset contains 500 simulated booking records with the following fields:
 
-## Key Projects
+- customer_id
+- booking_id
+- booking_date
+- channel (Google Ads, WeChat, Direct, OTA)
+- destination
+- product_type (Hotel, Flight, Package, Tour)
+- booking_value
 
-### 1. Customer Segmentation
-Identifies high-value customers based on order frequency and revenue.
+## Key Analyses
 
-### 2. Sales KPI Dashboard
-Tracks key business metrics such as revenue, orders, and average order value over time.
+### 1. Channel Performance Analysis
+Evaluates which acquisition channels drive the highest revenue and booking volume.
 
-### 3. Cohort Analysis
-Analyzes customer retention and engagement patterns.
+### 2. Destination Analysis
+Identifies top-performing destinations based on revenue and demand.
+
+### 3. Product Analysis
+Analyzes booking patterns and revenue across different travel product types.
 
 ## Skills Demonstrated
 
-- SQL (CTEs, aggregations, joins)
-- Business analysis & KPI design
-- Customer analytics & retention analysis
+- SQL (aggregations, grouping)
+- Business performance analysis
+- KPI design and reporting
+- Customer and channel analytics
 - Data-driven decision making
+
+## Tools
+
+- SQL
+- Python (data generation)
+- GitHub
+
+## Summary
+
+This project demonstrates how data can be used to analyze operational performance in a travel business, identify high-performing channels, and support strategic decision-making.
