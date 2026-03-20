@@ -6,7 +6,7 @@ WITH channel_metrics AS (
         COUNT(booking_id) AS total_bookings,
         SUM(booking_value) AS total_revenue,
         AVG(booking_value) AS avg_booking_value
-    FROM travel_bookings_samples
+    FROM travel_bookings
     GROUP BY channel
 ),
 
