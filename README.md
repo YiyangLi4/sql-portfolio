@@ -50,5 +50,6 @@ Analyzes booking patterns and revenue across different travel product types to u
 
 ## Summary
 
-This project reflects real-world data analysis practices in a travel business context. It demonstrates how data can be used to evaluate performance, identify revenue drivers, and support strategic decision-making.
+This project demonstrates my ability to apply data analysis to real-world business problems. By analyzing travel booking data, I identified key revenue drivers, evaluated channel performance, and generated insights to support data-driven decision-making.
 
+I am particularly interested in leveraging these analytical skills in a business or finance setting, where I can contribute to improving operational efficiency, optimizing resource allocation, and supporting strategic planning.
